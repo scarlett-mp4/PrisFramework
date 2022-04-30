@@ -1,0 +1,5 @@
+name: PrisBungeeHandler
+version: ${project.version}
+main: net.prismc.prisbungeehandler.PrisBungeeHandler
+description: Bungeecord Handler for PrisMC
+depends: ["LuckPerms"]

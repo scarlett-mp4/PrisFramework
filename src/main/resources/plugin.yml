@@ -1,0 +1,11 @@
+name: PrisChat
+version: ${project.version}
+main: net.prismc.prischat.PrisChat
+api-version: 1.18
+author: Skarless
+description: Chat plugin for PrisMC
+depend:
+  - PrisCore
+  - LuckPerms
+  - PlaceholderAPI
+  - ProtocolLib

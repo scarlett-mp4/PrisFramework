@@ -1,0 +1,66 @@
+package net.prismc.priscore.utils;
+
+import java.util.regex.Pattern;
+
+public final class PatternCollection {
+    // Patterns
+    public static final Pattern PLAYER_PATTERN = Pattern.compile("[PLAYER]", Pattern.LITERAL);
+    public static final Pattern PLAYERS_PATTERN = Pattern.compile("[PLAYERS]", Pattern.LITERAL);
+    public static final Pattern WARP_PATTERN = Pattern.compile("[WARP]", Pattern.LITERAL);
+    public static final Pattern PAGE_PATTERN = Pattern.compile("[PAGE]", Pattern.LITERAL);
+    public static final Pattern MAXPAGES_PATTERN = Pattern.compile("[MAXPAGES]", Pattern.LITERAL);
+    public static final Pattern STATUS_PATTERN = Pattern.compile("[STATUS]", Pattern.LITERAL);
+    public static final Pattern MESSAGE_PATTERN = Pattern.compile("[MESSAGE]", Pattern.LITERAL);
+    public static final Pattern TIME_PATTERN = Pattern.compile("[TIME]", Pattern.LITERAL);
+    public static final Pattern MAP_PATTERN = Pattern.compile("[MAP]", Pattern.LITERAL);
+    public static final Pattern KILLER_aPATTERN = Pattern.compile("[KILLER]", Pattern.LITERAL);
+    public static final Pattern TEAM_PATTERN = Pattern.compile("[TEAM]", Pattern.LITERAL);
+    public static final Pattern ABBREVIATION_PATTERN = Pattern.compile("[ABBREVIATION]", Pattern.LITERAL);
+    public static final Pattern MOD_PATTERN = Pattern.compile("[MOD]", Pattern.LITERAL);
+    public static final Pattern STRING_PATTERN = Pattern.compile("[STRING]", Pattern.LITERAL);
+    public static final Pattern EXACT_PATTERN = Pattern.compile("[EXACT]", Pattern.LITERAL);
+    public static final Pattern LOBBY_PATTERN = Pattern.compile("[LOBBY]", Pattern.LITERAL);
+    public static final Pattern PRISON_PATTERN = Pattern.compile("[PRISON]", Pattern.LITERAL);
+    public static final Pattern FRIEND_LAST_ONLINE = Pattern.compile("[SEEN]", Pattern.LITERAL);
+    public static final Pattern FRIEND_SERVER = Pattern.compile("[PLAYING]", Pattern.LITERAL);
+    public static final Pattern FIRSTJOIN_PATTERN = Pattern.compile("[FIRSTJOIN]", Pattern.LITERAL);
+    public static final Pattern RANK_PATTERN = Pattern.compile("[RANK]", Pattern.LITERAL);
+    public static final Pattern LEVEL_PATTERN = Pattern.compile("[LEVEL]", Pattern.LITERAL);
+    public static final Pattern PLAYTIME_PATTERN = Pattern.compile("[PLAYTIME]", Pattern.LITERAL);
+    public static final Pattern DAYS_PATTERN = Pattern.compile("[TIME_DAYS]", Pattern.LITERAL);
+    public static final Pattern HOURS_PATTERN = Pattern.compile("[TIME_HOURS]", Pattern.LITERAL);
+    public static final Pattern MINUTES_PATTERN = Pattern.compile("[TIME_MINUTES]", Pattern.LITERAL);
+    public static final Pattern SECONDS_PATTERN = Pattern.compile("[TIME_SECONDS]", Pattern.LITERAL);
+    public static final Pattern FORMAT_PATTERN = Pattern.compile("[FORMAT]", Pattern.LITERAL);
+    public static final Pattern TITLE_PATTERN = Pattern.compile("[TITLE]", Pattern.LITERAL);
+    public static final Pattern BUTTONS_PATTERN = Pattern.compile("[BUTTONS]", Pattern.LITERAL);
+    public static final Pattern SETTING_1_PATTERN = Pattern.compile("[SETTING_1]", Pattern.LITERAL);
+    public static final Pattern SETTING_2_PATTERN = Pattern.compile("[SETTING_2]", Pattern.LITERAL);
+    public static final Pattern SETTING_3_PATTERN = Pattern.compile("[SETTING_3]", Pattern.LITERAL);
+    public static final Pattern SETTING_4_PATTERN = Pattern.compile("[SETTING_4]", Pattern.LITERAL);
+    public static final Pattern SETTING_5_PATTERN = Pattern.compile("[SETTING_5]", Pattern.LITERAL);
+    public static final Pattern SETTING_6_PATTERN = Pattern.compile("[SETTING_6]", Pattern.LITERAL);
+    public static final Pattern SETTING_7_PATTERN = Pattern.compile("[SETTING_7]", Pattern.LITERAL);
+    public static final Pattern SETTING_8_PATTERN = Pattern.compile("[SETTING_8]", Pattern.LITERAL);
+    public static final Pattern SETTING_9_PATTERN = Pattern.compile("[SETTING_9]", Pattern.LITERAL);
+    public static final Pattern SETTING_10_PATTERN = Pattern.compile("[SETTING_10]", Pattern.LITERAL);
+    public static final Pattern PROGRESS_PATTERN = Pattern.compile("[PROGRESS]", Pattern.LITERAL);
+    public static final Pattern TOTAL_PATTERN = Pattern.compile("[TOTAL]", Pattern.LITERAL);
+    public static final Pattern ACHIEVEMENT_1_PATTERN = Pattern.compile("[ACHIEVEMENT_1]", Pattern.LITERAL);
+    public static final Pattern ACHIEVEMENT_2_PATTERN = Pattern.compile("[ACHIEVEMENT_2]", Pattern.LITERAL);
+    public static final Pattern ACHIEVEMENT_3_PATTERN = Pattern.compile("[ACHIEVEMENT_3]", Pattern.LITERAL);
+    public static final Pattern ACHIEVEMENT_4_PATTERN = Pattern.compile("[ACHIEVEMENT_4]", Pattern.LITERAL);
+    public static final Pattern ACHIEVEMENT_5_PATTERN = Pattern.compile("[ACHIEVEMENT_5]", Pattern.LITERAL);
+    public static final Pattern ACHIEVEMENT_6_PATTERN = Pattern.compile("[ACHIEVEMENT_6]", Pattern.LITERAL);
+    public static final Pattern ACHIEVEMENT_7_PATTERN = Pattern.compile("[ACHIEVEMENT_7]", Pattern.LITERAL);
+    public static final Pattern ACHIEVEMENT_8_PATTERN = Pattern.compile("[ACHIEVEMENT_8]", Pattern.LITERAL);
+    public static final Pattern ACHIEVEMENT_9_PATTERN = Pattern.compile("[ACHIEVEMENT_9]", Pattern.LITERAL);
+    public static final Pattern ACHIEVEMENT_10_PATTERN = Pattern.compile("[ACHIEVEMENT_10]", Pattern.LITERAL);
+    public static final Pattern ACHIEVEMENT_11_PATTERN = Pattern.compile("[ACHIEVEMENT_11]", Pattern.LITERAL);
+    public static final Pattern ACHIEVEMENT_12_PATTERN = Pattern.compile("[ACHIEVEMENT_12]", Pattern.LITERAL);
+    public static final Pattern LEFT_ARROW = Pattern.compile("[LEFT_ARROW]", Pattern.LITERAL);
+    public static final Pattern RIGHT_ARROW = Pattern.compile("[RIGHT_ARROW]", Pattern.LITERAL);
+    public static final Pattern XP_PATTERN = Pattern.compile("[XP]", Pattern.LITERAL);
+    public static final Pattern RARITY_PATTERN = Pattern.compile("[RARITY]", Pattern.LITERAL);
+    public static final Pattern UNLOCKED_PATTERN = Pattern.compile("[UNLOCKED]", Pattern.LITERAL);
+}

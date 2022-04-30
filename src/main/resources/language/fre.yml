@@ -1,0 +1,345 @@
+# Main Lobby Messages
+Main:
+  WelcomeTitle: '&e&k&l:&r &d&lPris&f&lMC &e&k&l:&r'
+  WelcomeSubTitle: ''
+  ConnectingToServer: ''
+  AllServersOffline: ''
+  ServerIsOffline: ''
+  ComingSoon: ''
+  Items:
+    ServerSelector: ''
+    LobbySelector: ''
+    Cosmetics: ''
+    Profile: ''
+  Days: ''
+  Hours: ''
+  Minutes: ''
+  Seconds: ''
+
+
+# Scoreboard messages
+# PlaceholderAPI support for this category
+UI:
+  Lobby:
+    Board:
+      Title: '&5┌───┤&r &d&lPRIS&f&lMC &5├───┐'
+      Lines:
+        - '        &e&o%server_time_MM/dd/yyyy%'
+        - ' '
+        - '» &cnull: &f%player_name%'
+        - '» &6null: &f%luckperms_primary_group_name%'
+        - '» &enull: &f0'
+        - '» &anull: &f[LEVEL]'
+        - '» &bnull: &f%bungee_total%'
+        - ''
+        - '     &5< &dwww.prismc.net &5>'
+    Bar:
+      - ''
+      - ''
+      - ''
+
+
+
+# Command Messages
+Commands:
+  PlayerNotOnline: ''
+  InvalidArgs: ''
+  MissingPermission: ''
+  Health:
+    FiveThroughTwentyFortyEight: ''
+    Updated: ''
+  Speed:
+    ZeroThroughTen: ''
+    WalkSpeed: ''
+    FlySpeed: ''
+  Clear:
+    Cleared: ''
+    ClearedOther: '' # [PLAYER]
+  Delwarp:
+    IncludeAWarp: ''
+    WarpRemoved: '' #[WARP]
+    InvalidWarp: ''
+  EnderChest:
+    Open: ''
+  Feed:
+    Fed: ''
+    FedOther: '' # [PLAYER]
+  Fly:
+    FlyOFF: ''
+    FlyON: ''
+    FlyOthers: '' # [PLAYER]
+  Gamemode:
+    ChooseAGamemode: ''
+    Creative: ''
+    Survival: ''
+    Adventure: ''
+    Spectator: ''
+    UnknownGamemode: ''
+    GamemodeOthers: '' # [PLAYER]
+  God:
+    On: ''
+    Off: ''
+    OnOthers: '' # [PLAYER]
+    OffOthers: '' # [PLAYER]
+  Hat:
+    HatSet: ''
+    MustHoldItem: ''
+  Heal:
+    Healed: ''
+    HealedOthers: '' # [PLAYER]
+  PrisMC:
+    Help:
+      - ''
+      - ''
+      - ''
+      - ''
+    Reload: ''
+  SetSpawn:
+    SpawnHasBeenSet: ''
+  SetWarp:
+    WarpAlreadyExists: ''
+    WarpSet: '' # [WARP]
+  Warp:
+    MustIncludeWarp: ''
+    Warped: ''
+    InvalidWarp: ''
+    WarpOthers: '' # [PLAYER] [WARP]
+
+
+# GUI Basics
+# Messages that are carried out between GUIs.
+GUIBasics:
+  CloseMenu: ''
+  Back: ''
+
+
+# Server Selector GUI
+ServerSelector:
+  Title: ''
+  Top:
+    One:
+      Name: ''
+      Lore: # You can use [PLAYERS] for the current amount of players connected to the specific server.
+        - ''
+        - ''
+        - ''
+    Two:
+      Name: ''
+      Lore: # You can use [PLAYERS] for the current amount of players connected to the specific server.
+        - ''
+    Three:
+      Name: ''
+      Lore: # You can use [PLAYERS] for the current amount of players connected to the specific server.
+        - ''
+  Bottom:
+    One:
+      Name: ''
+      Lore:
+        - ''
+        - ''
+        - ''
+    Two:
+      Name: ''
+      Lore:
+        - ''
+        - ''
+    Three:
+      Name: ''
+      Lore:
+        - ''
+        - ''
+
+
+# Lobby Selector GUI
+LobbySelector:
+  Title: ''
+  Items:
+    OnlineStatus:
+      Title: '' # [LOBBY]
+      Lore: # You can use [PLAYERS] for the current amount of players connected to the specific server.
+        - ''
+        - ''
+        - ''
+    OfflineStatus:
+      Title: '' # [LOBBY]
+      Lore:
+        - ''
+
+
+# Prison Selector GUI
+PrisonSelector:
+  Title: ''
+  Items:
+    OnlineStatus:
+      Title: '' # [LOBBY]
+      Lore: # You can use [PLAYERS] for the current amount of players connected to the specific server.
+        - ''
+        - ''
+        - ''
+    OfflineStatus:
+      Title: '' # [LOBBY]
+      Lore:
+        - ''
+
+
+Chat:
+  BannedCharacters: ''
+
+
+ProfileMenu:
+  MenuBar:
+    You: ''
+    Friends: ''
+    FriendRequests: ''
+    Party: ''
+    Clans: ''
+  MainMenu:
+    Title: ''
+    ProfileHead:
+      Title: '' # [PLAYER]
+      Lore:
+        - ''
+        - ''
+        - ''
+    Store:
+      Title: ''
+      Lore:
+        - ''
+        - ''
+        - ''
+    Language:
+      Title: ''
+      Lore:
+        - ''
+        - ''
+        - ''
+        - ''
+    Achievements:
+      Title: ''
+      Lore:
+        - ''
+    Socials:
+      Title: ''
+      Lore:
+        - ''
+        - ''
+        - ''
+    Settings:
+      Title: ''
+      Lore:
+        - ''
+        - ''
+        - ''
+  Settings:
+    Title: ''
+    FriendToggle:
+      Title: ''
+      Lore:
+        - ''
+        - ''
+        - ''
+    FriendNotifications:
+      Title: ''
+      Lore:
+        - ''
+        - ''
+        - ''
+    MsgToggle:
+      Title: ''
+      Lore:
+        - ''
+        - ''
+        - ''
+    ChatFilter:
+      Title: ''
+      Lore:
+        - ''
+        - ''
+        - ''
+    ENABLED: ''
+    DISABLED: ''
+    FRIENDS: ''
+    HIGH: ''
+    MEDIUM: ''
+    LOW: ''
+    Updated: ''
+  Friends:
+    Title: ''
+    NextPage: '' # [PAGE]
+    PreviousPage: '' # [PAGE]
+    EmptySlot: ''
+    OnlineFriends:
+      Lore: # [PLAYING] [FIRSTJOIN]
+        - ''
+        - ''
+        - ''
+    OfflineFriends:
+      Lore: # [SEEN] [FIRSTJOIN]
+        - ''
+        - ''
+        - ''
+    NoFriends:
+      Name: ''
+      Lore:
+        - ''
+        - ''
+        - ''
+    RemovePage:
+      Title: ''
+      Confirm: ''
+      Cancel: ''
+      Book:
+        Title: ''
+        Lore:
+          - ''
+          - ''
+  Language:
+    Title: ''
+    Book:
+      Title: ''
+      Lore:
+        - ''
+        - ''
+        - ''
+    Languages:
+      English:
+        Title: '&6English'
+        Lore:
+          - ''
+          - '&fThe following are translated:'
+          - '&7- &aThe Lobby'
+          - '&7- &aAll Gamemodes'
+          - '&7- &aEvents'
+          - '&7- &aExtras'
+          - ''
+          - '&eClick to change your language!'
+        Switched: '&aYour language is now set to &eEnglish&a!'
+      Spanish:
+        Title: '&6Español'
+        Lore:
+          - ''
+          - '&fSe traducen los siguientes:'
+          - '&7- &cSe necesitan traducciones'
+          - ''
+          - '&e¡Haz clic para cambiar tu idioma!'
+        Switched: '&a¡Su idioma ahora está configurado en &eEspañol&a!'
+      French:
+        Title: '&6Français'
+        Lore:
+          - ''
+          - '&fLes éléments suivants sont traduits:'
+          - '&7- &cTraductions nécessaires'
+          - ''
+          - '&eCliquez pour changer votre langue!'
+        Switched: '&aVotre langue est maintenant définie sur &eFrançais&a!'
+      German:
+        Title: '&6Deutsche'
+        Lore:
+          - ''
+          - '&fFolgendes wird übersetzt:'
+          - '&7- &cÜbersetzungen erforderlich'
+          - ''
+          - '&eKlicken Sie hier, um Ihre Sprache zu ändern!'
+        Switched: '&aIhre Sprache ist jetzt auf &eDeutsch &aeingestellt!'
+  Achievements:
+    Title: ''

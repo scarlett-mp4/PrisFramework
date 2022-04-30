@@ -1,0 +1,824 @@
+# Main Lobby Messages
+Main:
+  WelcomeTitle: '&e&k&l:&r &d&lPris&f&lMC &e&k&l:&r'
+  WelcomeSubTitle: '&cWe are currently in &4&lDEVELOPMENT&c!'
+  ConnectingToServer: '&7Attempting to move you to a new server...'
+  AllServersOffline: '&cAll servers appear to be offline. Try again later.'
+  ServerIsOffline: '&cThe server you requested to join is currently offline!'
+  ComingSoon: '&cSorry! This feature hasn''t been implemented yet.'
+  Items:
+    ServerSelector: '&eServer Selector &5&o(Right Click)'
+    LobbySelector: '&eLobby Selector &5&o(Right Click)'
+    Cosmetics: '&eCosmetics &5&o(Right Click)'
+    Profile: '&eProfile &5&o(Right Click)'
+  Days: 'Days'
+  Hours: 'Hours'
+  Minutes: 'Minutes'
+  Seconds: 'Seconds'
+
+# Command Messages
+Commands:
+  PlayerNotOnline: '&cThat player is currently not online!'
+  InvalidArgs: '&cInvalid arguments!'
+  MissingPermission: '&cInsufficient permission.'
+  Health:
+    FiveThroughTwentyFortyEight: '&cYou must choose aa number between 5 and 2048.'
+    Updated: '&dYour health scale has been updated!'
+  Speed:
+    ZeroThroughTen: '&cYou must choose a number between 0 and 10.'
+    WalkSpeed: '&dYour walking speed has been updated!'
+    FlySpeed: '&dYour flying speed has been updated!'
+  Clear:
+    Cleared: '&dYour inventory has been cleared.'
+    ClearedOther: '&dYou have cleared &e[PLAYER]''s &dinventory!' # [PLAYER]
+  Delwarp:
+    IncludeAWarp: '&cYou must include a warp to delete!'
+    WarpRemoved: '&dThe warp, &e[WARP]&d, has been removed!' #[WARP]
+    InvalidWarp: '&cYou can''t remove a warp that doesn''t exist!'
+  EnderChest:
+    Open: '&5Opening your virtual enderchest...'
+  Feed:
+    Fed: '&dYour hunger has been replenished.'
+    FedOther: '&dYou have fed &e[PLAYER]&d!' # [PLAYER]
+  Fly:
+    FlyOFF: '&dFlight has been &cDISABLED&d!'
+    FlyON: '&dFlight has been &aENABLED&d!'
+    FlyOthers: '&dYou have toggled &e[PLAYER]''s &dflight.' # [PLAYER]
+  Gamemode:
+    ChooseAGamemode: '&cYou must choose a gamemode!'
+    Creative: '&dYour gamemode has been updated to &eCREATIVE&d!'
+    Survival: '&dYour gamemode has been updated to &eSURVIVAL&d!'
+    Adventure: '&dYour gamemode has been updated to &eADVENTURE&d!'
+    Spectator: '&dYour gamemode has been updated to &eSPECTATOR&d!'
+    UnknownGamemode: '&dInvalid gamemode!'
+    GamemodeOthers: '&dYou have updated &e[PLAYER]''s &dgamemode.' # [PLAYER]
+  God:
+    On: '&dYou are now invulnerable.'
+    Off: '&dYou are once again vulnerable.'
+    OnOthers: '&dGod mode &aENABLED &dfor &e[PLAYER]&d!' # [PLAYER]
+    OffOthers: '&dGod mode &cDISABLED &dfor &e[PLAYER]&d!' # [PLAYER]
+  Hat:
+    HatSet: '&3Girl, you got style. Enjoy your hat.'
+    MustHoldItem: '&cYou must be holding an item.'
+  Heal:
+    Healed: '&dYou have been healed.'
+    HealedOthers: '&dYou have healed &e[PLAYER]&d.' # [PLAYER]
+  Pris:
+    Reload: '&6The plugin has been reloaded!'
+  SetSpawn:
+    SpawnHasBeenSet: '&dThe spawn has been set to your location.'
+  SetWarp:
+    WarpAlreadyExists: '&cThat warp already exists! Try another.'
+    WarpSet: '&dYou have created the warp &e[WARP]&d!' # [WARP]
+  Warp:
+    MustIncludeWarp: '&cYou must include a warp to teleport to.'
+    Warped: '&dWoosh! You''ve been teleported!'
+    InvalidWarp: '&cThat warp does not exist.'
+    WarpOthers: '&dYou have warped &e[PLAYER] &dto &e[WARP]&d!' # [PLAYER] [WARP]
+  LobbyBuild:
+    BuildOFF: '&dLobby build has been &cDISABLED&d!'
+    BuildON: '&dLobby build has been &aENABLED&d!'
+    BuildOthers: '&dYou have toggled &e[PLAYER]''s &dLobby build status.' # [PLAYER]
+
+
+# GUI Basics
+# Messages that are carried out between GUIs.
+GUIBasics:
+  CloseMenu: '&cClose Menu'
+  Back: '&cBack'
+
+# Chat Messages
+Chat:
+  BannedCharacters: '&cYou can''t use special characters.'
+
+# Profile Menu Messages
+# Contains many sub-menus.
+ProfileMenu:
+  MenuBar:
+    You: '&dYou'
+    Friends: '&dFriends'
+    Party: '&dParty'
+    Achievements: '&dAchievements'
+    Settings: '&dSettings'
+    Language: '&dLanguage'
+  ProfilePage:
+    Title: '&r&f[TITLE]'
+    ChestTitle: ''
+    Alpha:
+      Title: '&e&lWork In Progress'
+      Lore:
+        - '&7The profile page is currently'
+        - '&7not finished! We plan to add'
+        - '&7many more exciting features to'
+        - '&7this page come soon!'
+  FriendsPage:
+    Title: '&r&f[TITLE][FORMAT][PAGE]'
+    NoFriendsTitle: '&r&f[TITLE]'
+    ChestTitle: ''
+    Format:
+      RightArrow: ''
+      LeftArrow: ''
+      BothArrows: ''
+      NoArrows: ''
+    Page:
+      1: ''
+      2: ''
+      3: ''
+      4: ''
+      5: ''
+      6: ''
+      7: ''
+      8: ''
+      9: ''
+      10: ''
+    NextPage: '&6Next Page &e([PAGE])' # [PAGE]
+    PreviousPage: '&6Previous Page &e([PAGE])' # [PAGE]
+    AddPage: '&6Add Friend'
+    OnlineFriends:
+      Lore: # [PLAYING] [FIRSTJOIN]
+        - ' '
+        - '&ePlaying: &7[PLAYING]'
+        - '&eFirst Join: &7[FIRSTJOIN]'
+        - ' '
+        - '&2&oMore options coming soon!'
+    OfflineFriends:
+      Lore: # [SEEN] [FIRSTJOIN]
+        - ' '
+        - '&4Last Seen: &7[SEEN]'
+        - '&4First Join: &7[FIRSTJOIN]'
+        - ' '
+        - '&2&oMore options coming soon!'
+    FriendAddPage:
+      Title: '&r&f[TITLE][FORMAT]'
+      ChestTitle: ''
+      Layout: ''
+      Confirm:
+        - '&r&f'
+      Cancel:
+        - '&r&f'
+  PartyPage:
+    Title: '&r&f[TITLE][FORMAT][STATUS][BUTTONS]'
+    ChestTitle: ''
+    NoParty:
+      Format: ''
+      Open: '&aCreate an &6OPEN &aparty...'
+      Closed: '&aCreate a &6CLOSED &aparty...'
+      Join: '&dJoin a party...'
+    Party:
+      RightArrow: ''
+      LeftArrow: ''
+      BothArrows: ''
+      NoArrows: ''
+      Next: '&6Next Page'
+      Previous: '&6Previous Page'
+      LeaderPrefix: "&6Leader: &e[PLAYER]"
+      OpenIcon: ''
+      ClosedIcon: ''
+      LeaderButtons: ''
+      MemberButtons: ''
+      StatusChangeButton: '&dSwitch your party''s status...'
+      InviteButton: '&aInvite players...'
+      DisbandButton: '&cDisband the party...'
+      LeaveButton: '&6Leave the party...'
+      JoinPage:
+        Title: '&r&f[TITLE][FORMAT]'
+        ChestTitle: ''
+        Layout: ''
+        Confirm:
+          - '&r&f'
+        Cancel:
+         - '&r&f'
+      InvitePage:
+        Title: '&r&f[TITLE][FORMAT]'
+        ChestTitle: ''
+        Layout: ''
+        Confirm:
+          - '&r&f'
+        Cancel:
+          - '&r&f'
+  Settings:
+    Title: '&r&f[TITLE][FORMAT][SETTING_2][SETTING_4][SETTING_6][SETTING_8][SETTING_10][SETTING_1][SETTING_3][SETTING_5][SETTING_7][SETTING_9]'
+    ChestTitle: ''
+    Layout: ''
+    Toggles: #By Row; ON, OFF, PALS, Blank, LOW, MEDIUM, HIGH
+      Row1: ''
+      Row2: ''
+      Row3: ''
+      Row4: ''
+      Row5: ''
+    Buttons:
+      FriendRequests:
+        Title: '&d&lFriend Requests'
+        Lore:
+          - '&7Would you like other players to'
+          - '&7be able to send you friend requests?'
+      FriendNotifications:
+        Title: '&d&lFriend Notifications'
+        Lore:
+          - '&7Would you like to be notified'
+          - '&7when a friend joins or leaves?'
+      MsgToggle:
+        Title: '&d&lPrivate Messages'
+        Lore:
+          - '&7Would you like private messaging'
+          - '&7to be disabled, open to friends,'
+          - '&7or open to everyone?'
+      ChatFilter:
+        Title: '&d&lChat Filter'
+        Lore:
+          - '&7Would you like to filter'
+          - '&7colorful language?'
+      PartyInvites:
+        Title: '&d&lParty Invites'
+        Lore:
+          - '&7Would you like party invites'
+          - '&7to be disabled, open to friends,'
+          - '&7or open to everyone?'
+  Language:
+    Title: '&r&f[TITLE][FORMAT]'
+    ChestTitle: ''
+    Layout: ''
+    Info:
+      Title: '&6Select your language:'
+      Lore:
+        - '&7Can''t find yours? Consider joining our'
+        - '&7translation team! Here at PrisMC, we''re'
+        - '&7always looking for helping hands to further'
+        - '&7diversify our server. What are you waiting for?'
+        - ''
+        - '&eJoin our &9Discord &efor more infomration!'
+    Languages:
+      English: # Do not translate
+        Title: '&6English'
+        Lore:
+          - ''
+          - '&fThe following are translated:'
+          - '&7- &aThe Lobby'
+          - '&7- &aAll Gamemodes'
+          - '&7- &aEvents'
+          - '&7- &aExtras'
+          - ''
+          - '&eClick to change your language!'
+        Switched: '&aYour language is now set to &eEnglish&a!'
+      Spanish: # Do not translate
+        Title: '&6Español'
+        Lore:
+          - ''
+          - '&fSe traducen los siguientes:'
+          - '&7- &cSe necesitan traducciones'
+          - ''
+          - '&e¡Haz clic para cambiar tu idioma!'
+        Switched: '&a¡Su idioma ahora está configurado en &eEspañol&a!'
+  AchievementsPage:
+    Title: '&r&f[TITLE][FORMAT][PAGE][BUTTONS][ACHIEVEMENT_4][ACHIEVEMENT_8][ACHIEVEMENT_12][ACHIEVEMENT_3][ACHIEVEMENT_7][ACHIEVEMENT_11][ACHIEVEMENT_2][ACHIEVEMENT_6][ACHIEVEMENT_10][ACHIEVEMENT_1][ACHIEVEMENT_5][ACHIEVEMENT_9][LEFT_ARROW]           [RIGHT_ARROW]'
+    ChestTitle: ''
+    Layout: ''
+    Next: '&6Next Page'
+    Previous: '&6Previous Page'
+    Types:
+      Arrows:
+        NoLeft: ''
+        NoRight: ''
+        YesLeft: ''
+        YesRight: ''
+      Row1:
+        Unknown: ''
+        Common: ''
+        Uncommon: ''
+        Rare: ''
+        Epic: ''
+        Legendary: ''
+      Row2:
+        Unknown: ''
+        Common: ''
+        Uncommon: ''
+        Rare: ''
+        Epic: ''
+        Legendary: ''
+      Row3:
+        Unknown: ''
+        Common: ''
+        Uncommon: ''
+        Rare: ''
+        Epic: ''
+        Legendary: ''
+    RarityColors:
+      Common: '&7&l'
+      Uncommon: '&a&l'
+      Rare: '&b&l'
+      Epic: '&5&l'
+      Legendary: '&6&l'
+    Pages:
+      Home: ''
+      Bedwars: ''
+      Skywars: ''
+      Events: ''
+      General: ''
+    Buttons:
+      Home: ''
+      View: ''
+    PageNames:
+      General:
+        Title: '&6&lGeneral'
+        Lore:
+          - '&eClick to view!'
+          - ''
+          - '&7Unlocked:'
+          - '&7[UNLOCKED]/[TOTAL]'
+      Events:
+        Title: '&6&lEvents'
+        Lore:
+          - '&eClick to view!'
+          - ''
+          - '&7Unlocked:'
+          - '&7[UNLOCKED]/[TOTAL]'
+      Bedwars:
+        Title: '&6&lBedwars'
+        Lore:
+          - '&eClick to view!'
+          - ''
+          - '&7Unlocked:'
+          - '&7[UNLOCKED]/[TOTAL]'
+
+GameMenu:
+  Bedwars:
+    Title: ''
+
+
+Achievements:
+  General:
+    Spacer: '&9-----------------------------------------------------'
+    TextComplete: '&f&lAchievement Unlocked'
+    TitleComplete: '&fAchievement Complete!'
+    Unlocked:
+      YesGUI: '&eYes'
+      NoGUI: '&eNo'
+    Rarities:
+      Common: '&7Common'
+      Uncommon: '&aUncommon'
+      Rare: '&bRare'
+      Epic: '&5Epic'
+      Legendary: '&eLegendary'
+    Categories:
+      General: ''
+      Events: ''
+      Bedwars: ''
+  Listing:
+    Test:
+      Name: '&d&lTest'
+      Description:
+        - '&eDebug'
+    FirstJoin:
+      Name: '&d&lFirst Login'
+      Description:
+        - ''
+        - '&8Unlocked: &e[UNLOCKED]'
+        - '&8Rarity: [RARITY]'
+        - '&8Reward: &e[XP]XP'
+        - ''
+        - '&eConnect for the first time.'
+    OneHour:
+      Name: '&d&l1 Hour In'
+      Description:
+        - ''
+        - '&8Unlocked: &e[UNLOCKED]'
+        - '&8Rarity: [RARITY]'
+        - '&8Reward: &e[XP]XP'
+        - ''
+        - '&ePlay for 1 consecutive hour.'
+    FiveHour:
+      Name: '&d&l5 Hours In'
+      Description:
+        - ''
+        - '&8Unlocked: &e[UNLOCKED]'
+        - '&8Rarity: [RARITY]'
+        - '&8Reward: &e[XP]XP'
+        - ''
+        - '&ePlay for 5 consecutive hours.'
+    TwentyFourHour:
+      Name: '&d&l24 Hours In'
+      Description:
+        - ''
+        - '&8Unlocked: &e[UNLOCKED]'
+        - '&8Rarity: [RARITY]'
+        - '&8Reward: &e[XP]XP'
+        - ''
+        - '&ePlay for 24 consecutive hours.'
+    FirstParty:
+      Name: '&d&lLets Play Together'
+      Description:
+        - ''
+        - '&8Unlocked: &e[UNLOCKED]'
+        - '&8Rarity: [RARITY]'
+        - '&8Reward: &e[XP]XP'
+        - ''
+        - '&eParty someone for the first time!'
+    OneFriend:
+      Name: '&d&lNo Longer Lonely'
+      Description:
+        - ''
+        - '&8Unlocked: &e[UNLOCKED]'
+        - '&8Rarity: [RARITY]'
+        - '&8Reward: &e[XP]XP'
+        - ''
+        - '&eBegin your first friendship.'
+    FifteenFriend:
+      Name: '&d&lThe Cool Kid'
+      Description:
+        - ''
+        - '&8Unlocked: &e[UNLOCKED]'
+        - '&8Rarity: [RARITY]'
+        - '&8Reward: &e[XP]XP'
+        - ''
+        - '&eBefriend 15 players.'
+    TenMinute:
+      Name: '&d&l10 Minutes In'
+      Description:
+        - ''
+        - '&8Unlocked: &e[UNLOCKED]'
+        - '&8Rarity: [RARITY]'
+        - '&8Reward: &e[XP]XP'
+        - ''
+        - '&ePlay for 10 consecutive minutes.'
+
+
+
+
+
+
+
+
+
+
+ServerSelector:
+  Title: '&8(&2!&8) &2Server Selector'
+  Top:
+    One:
+      Name: '&6> &e&lPrison'
+      Lore: # You can use [PLAYERS] for the current amount of players connected to the specific server.
+        - '&8Custom Gamemode'
+        - ''
+        - '&7This is no ordinary prison.'
+        - '&7We''ve developed this gamemode'
+        - '&7from the ground up featuring'
+        - '&7quests, cinematics, boss fights,'
+        - '&7gangs, and so much more...'
+        - ''
+        - '&6&lCLICK TO JOIN &8(Auto)'
+    Two:
+      Name: '&6> &e&k&lIIIIIIIIII'
+      Lore: # You can use [PLAYERS] for the current amount of players connected to the specific server.
+        - '&8Coming Soon'
+    Three:
+      Name: '&6> &e&k&lIIIIIIIIII'
+      Lore: # You can use [PLAYERS] for the current amount of players connected to the specific server.
+        - '&8Coming Soon'
+  Bottom:
+    One:
+      Name: '&5> &d&lServer List'
+      Lore:
+        - ''
+        - '&7Looking to connect to a'
+        - '&7specific server? We''ve got you'
+        - '&7covered! Click this to view all'
+        - '&7available servers.'
+        - ''
+        - '&b&lCLICK FOR SERVERS'
+    Two:
+      Name: '&4> &c&lNot Available'
+      Lore:
+        - '&7No servers are currently'
+        - '&7available to the public yet!'
+    Three:
+      Name: '&4> &c&lNot Available'
+      Lore:
+        - '&7No servers are currently'
+        - '&7available to the public yet!'
+
+LobbySelector:
+  Title: '&8(&5!&8) &5Lobby Selector'
+  Items:
+    OnlineStatus:
+      Title: '&6> &e&lLobby [LOBBY]' # [LOBBY]
+      Lore: # You can use [PLAYERS] for the current amount of players connected to the specific server.
+        - '&8The Lobby'
+        - ''
+        - '&7Currently Playing: &e[PLAYERS]'
+        - '&6&lCLICK TO JOIN'
+    OfflineStatus:
+      Title: '&4> &c&lLobby [LOBBY]' # [LOBBY]
+      Lore:
+        - '&8The Lobby'
+        - ''
+        - '&c&lOFFLINE'
+
+Minigame:
+  Join: '&a[PLAYER] &ehas joined the game!'
+  Quit: '&c[PLAYER] &ehas left the game!'
+  LobbyItem: '&c&lLeave Game'
+  SendingToLobby: '&eReturning you to the lobby...'
+  Compass: '&dSpectate Players'
+  TimesUp: '&cTime''s Up!'
+  Death:
+    Respawn:
+      Title: '&cYou died!'
+      Sub: '&eRespawning in [TIME]'
+    Respawned:
+      Title: '&aRespawned!'
+      Sub: '&7You''re back in the game.'
+    Eliminated:
+      Title: '&4Eliminated!'
+      Sub: '&6You''ve been eliminated from the game.'
+    Player:
+      - '&7[PLAYER] was &cslaughtered &7by [KILLER].'
+      - '&7[PLAYER] was &dbonked &7by [KILLER].'
+      - '&7[PLAYER] was &6annihilated &7by [KILLER].'
+      - '&7[KILLER] took [PLAYER]''s life.'
+      - '&7[KILLER] was too much for [PLAYER].'
+      - '&7[KILLER] &3bested &7[PLAYER].'
+    Other:
+      DEFAULT: '&7[PLAYER] died.'
+      BLOCK_EXPLOSION: '&cBOOM! &7[PLAYER] sploded.'
+      CONTACT: '&7[PLAYER] was prickled to death.'
+      CRAMMING: '&7[PLAYER] got a little too touchy.'
+      DRAGON_BREATH: '&7[PLAYER] couldn'' take the fumes.'
+      DROWNING: '&7[PLAYER] forgot to come up for air.'
+      FALL: '&7[PLAYER] didn''t stick the landing.'
+      FALLING_BLOCK: '&7[PLAYER] was squashed by a falling block.'
+      FIRE: '&7[PLAYER] couldn''t take the &cheat&7.'
+      FIRE_TICK: '&7[PLAYER] couldn''t take the &cheat&7.'
+      FLY_INTO_WALL: '&7[PLAYER] forgot to hit the breaks.'
+      HOT_FLOOR: '&7Watch out, the &4floor is lava&7! &7Oh no, [PLAYER] had their airpods in and died.'
+      LAVA: '&7[PLAYER] took too hot of a bath.'
+      LIGHTNING: '&7[PLAYER] was zapped by &eZeus&7.'
+      MAGIC: '&7[PLAYER] was wished away by &5magic&7.'
+      POISON: '&7[PLAYER] drank the wrong potion.'
+      PROJECTILE: '&7[PLAYER] got hit too hard.'
+      STARVATION: '&7[PLAYER] forgot they had to eat.'
+      SUFFOCATION: '&7[PLAYER] got a little too touchy.'
+      SUICIDE: '&7[PLAYER] took their own life.'
+      THORNS: '&7[PLAYER] couldn''t take the power.'
+      VOID: '&7[PLAYER] fell into the void.'
+      WITHER: '&7[PLAYER] withered away.'
+
+
+Bedwars:
+  General:
+    CantBreak: '&cYou can''t break this block!'
+    CantBreakBed: '&cYou can''t break your own bed!'
+    BedBreak: '&f&lBED DESTRUCTION &7> [PLAYER] &7broke [TEAM]''s &7bed!'
+  Items:
+    Wearables:
+      Leather:
+        Helmet: '&eLeather Helmet'
+        Chestplate: '&eLeather Chestplate'
+        Leggings: '&eLeather Leggings'
+        Boots: '&eLeather Boots'
+      Chain:
+        Helmet: '&eChain Helmet'
+        Chestplate: '&eChain Chestplate'
+        Leggings: '&eChain Leggings'
+        Boots: '&eChain Boots'
+      Iron:
+        Helmet: '&eIron Helmet'
+        Chestplate: '&eIron Chestplate'
+        Leggings: '&eIron Leggings'
+        Boots: '&eIron Boots'
+      Diamond:
+        Helmet: '&eDiamond Helmet'
+        Chestplate: '&eDiamond Chestplate'
+        Leggings: '&eDiamond Leggings'
+        Boots: '&eDiamond Boots'
+      Netherite:
+        Helmet: '&ePrismatic Helmet'
+        Chestplate: '&ePrismatic Chestplate'
+        Leggings: '&ePrismatic Leggings'
+        Boots: '&ePrismatic Boots'
+    Blocks:
+      Wool:
+        Title: '&eWool'
+        Lore:
+          - ''
+      Terracotta:
+        Title: '&eTerracotta'
+        Lore:
+          - ''
+      Glass:
+        Title: '&eExplosion-Proof Glass'
+        Lore:
+          - ''
+      Endstone:
+        Title: '&eEndstone'
+        Lore:
+          - ''
+      Ladder:
+        Title: '&eLadder'
+        Lore:
+          - ''
+      Wood:
+        Title: '&eWood'
+        Lore:
+          - ''
+      Obsidian:
+        Title: '&eObsidian'
+        Lore:
+          - ''
+    Tools:
+      Wooden:
+        Sword:
+          Title: '&eWooden Sword'
+          Lore:
+            - ''
+        Pickaxe:
+          Title: '&eWooden Pickaxe'
+          Lore:
+            - ''
+        Axe:
+          Title: '&eWooden Axe'
+          Lore:
+            - ''
+      Stone:
+        Sword:
+          Title: '&eStone Sword'
+          Lore:
+            - ''
+        Pickaxe:
+          Title: '&eStone Pickaxe'
+          Lore:
+            - ''
+        Axe:
+          Title: '&eStone Axe'
+          Lore:
+            - ''
+      Iron:
+        Sword:
+          Title: '&eIron Sword'
+          Lore:
+            - ''
+        Pickaxe:
+          Title: '&eIron Pickaxe'
+          Lore:
+            - ''
+        Axe:
+          Title: '&eIron Axe'
+          Lore:
+            - ''
+      Gold:
+        Sword:
+          Title: '&eGold Sword'
+          Lore:
+            - ''
+        Pickaxe:
+          Title: '&eGold Pickaxe'
+          Lore:
+            - ''
+        Axe:
+          Title: '&eGold Axe'
+          Lore:
+            - ''
+      Diamond:
+        Sword:
+          Title: '&eDiamond Sword'
+          Lore:
+            - ''
+        Pickaxe:
+          Title: '&eDiamond Pickaxe'
+          Lore:
+            - ''
+        Axe:
+          Title: '&eDiamond Axe'
+          Lore:
+            - ''
+      Netherite:
+        Sword:
+          Title: '&ePrismatic Sword'
+          Lore:
+            - ''
+        Pickaxe:
+          Title: '&ePrismatic Pickaxe'
+          Lore:
+            - ''
+        Axe:
+          Title: '&ePrismatic Axe'
+          Lore:
+            - ''
+      Shears:
+        Title: '&eShears'
+        Lore:
+          - ''
+    Armor:
+      ChainArmor:
+        Title: '&eChain Armor'
+        Lore:
+          - ''
+        IronArmor:
+          Title: '&eIron Armor'
+          Lore:
+            - ''
+        DiamondArmor:
+          Title: '&eDiamond Armor'
+          Lore:
+            - ''
+        NetheriteArmor:
+          Title: '&ePrismatic Armor'
+          Lore:
+            - ''
+    Ranged:
+      Snowball:
+        Title: '&eSnowball'
+        Lore:
+          - ''
+      Arrow:
+        Title: '&eArrow'
+        Lore:
+          - ''
+      Bow:
+        Title: '&eBow'
+        Lore:
+          - ''
+      PunchBow:
+        Title: '&ePunch Bow'
+        Lore:
+          - ''
+    Potions:
+      Invisibility:
+        Title: '&eInvisibility Potion (30 Seconds)'
+        Lore:
+          - ''
+      Jump:
+        Title: '&eJump Potion (45 Seconds)'
+        Lore:
+          - ''
+      Speed:
+        Title: '&eSpeed Potion (45 Seconds)'
+        Lore:
+          - ''
+    Utility:
+      Gapple:
+        Title: '&eGolden Apple'
+        Lore:
+          - ''
+      Fireball:
+        Title: '&eFireball'
+        Lore:
+          - ''
+      Tnt:
+        Title: '&eDynamite'
+        Lore:
+          - ''
+      Enderpearl:
+        Title: '&eEnderpearl'
+        Lore:
+          - ''
+      Waterbucket:
+        Title: '&eWater Bucket'
+        Lore:
+          - ''
+  Upgrades:
+    Sharpness:
+      Title: '&eSharpness'
+      Lore:
+        - ''
+    Protection:
+      Title: '&eProtection'
+      Lore:
+        - ''
+    Haste:
+      Title: '&eHaste'
+      Lore:
+        - ''
+    Generator:
+      Title: '&eGenerator'
+      Lore:
+        - ''
+  Board:
+    Waiting:
+      Title: '&d&lBEDWARS'
+      Lines:
+        - ' '
+        - '&7» &fMap: &e[MAP]'
+        - '&7» &fPlayers: &e[PLAYERS]'
+        - ' '
+        - '&7» &fWaiting...'
+        - ''
+        - '&dwww.prismc.net'
+    Starting:
+      Title: '&d&lBEDWARS'
+      Lines:
+        - ' '
+        - '&7» &fMap: &e[MAP]'
+        - '&7» &fPlayers: &e[PLAYERS]'
+        - ' '
+        - '&7» &aStarting in [TIME]s!'
+        - ''
+        - '&dwww.prismc.net'
+    Playing:
+      Title: '&d&lBEDWARS'
+      Header:
+        - ' '
+        - '&fTime Left: &a[TIME]'
+        - ' '
+      Footer:
+        - ' '
+        - '&dwww.prismc.net'
+      Status: '&7» [ABBREVIATION] &f[TEAM]: [STATUS]'

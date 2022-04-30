@@ -1,0 +1,92 @@
+name: PrisCore
+version: ${project.version}
+main: net.prismc.priscore.PrisCore
+api-version: 1.18
+description: Essential framework for PrisMC plugins
+author: Skarless
+loadbefore:
+  - PrisHub
+  - PrisChat
+  - PrisArcade
+  - PrisBedwars
+depend:
+  - LuckPerms
+  - PlaceholderAPI
+  - ProtocolLib
+commands:
+  broadcast:
+    usage: </command>
+    description: Send a broadcast to the server.
+    aliases: [ bc ]
+  clear:
+    usage: </command>
+    description: Clear a players inventory.
+    aliases: [ clearinventory, ci ]
+  enchant:
+    usage: </command>
+    description: Enchant your items
+    aliases: [ ]
+  enderchest:
+    usage: </command>
+    description: Open a virtual enderchest.
+    aliases: [ ec ]
+  feed:
+    usage: </command>
+    description: Replenish your hunger points.
+    aliases: [ ]
+  fly:
+    usage: </command>
+    description: Enable a players flight.
+    aliases: [ ]
+  gamemode:
+    usage: </command>
+    description: Set a players gamemode.
+    aliases: [ gm ]
+  god:
+    usage: </command>
+    description: Set a players vulnerability status.
+    aliases: [ ]
+  hat:
+    usage: </command>
+    description: Set a cool funky hat.
+    aliases: [ ]
+  warp:
+    usage: </command>
+    description: Warp to a set location.
+    aliases: [ ]
+  setwarp:
+    usage: </command>
+    description: Set a warp.
+    aliases: [ ]
+  delwarp:
+    usage: </command>
+    description: Delete a warp.
+    aliases: [ ]
+  heal:
+    usage: </command>
+    description: Heal a player.
+    aliases: [ ]
+  health:
+    usage: </command>
+    description: Update a players health scale.
+    aliases: [ ]
+  setspawn:
+    usage: </command>
+    description: Set the spawn location.
+    aliases: [ ]
+  speed:
+    usage: </command>
+    description: Updates the fly or walk speed of the player.
+    aliases: [ ]
+  bukkitdebug:
+    usage: </command>
+    description: Shows debug menu.
+    aliases: [ ]
+  priscore:
+    usage: </command>
+    description: Reload the plugin.
+    aliases: [ ]
+  achievementtest:
+    usage: </command>
+    description: Achievement test.
+    aliases: [ act ]

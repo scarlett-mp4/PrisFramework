@@ -1,0 +1,297 @@
+# Main Lobby Messages
+Main:
+  WelcomeTitle: '&e&k&l:&r &d&lPris&f&lMC &e&k&l:&r'
+  WelcomeSubTitle: ''
+  ConnectingToServer: ''
+  AllServersOffline: ''
+  ServerIsOffline: ''
+  ComingSoon: ''
+  Items:
+    ServerSelector: ''
+    LobbySelector: ''
+    Cosmetics: ''
+    Profile: ''
+  Days: ''
+  Hours: ''
+  Minutes: ''
+  Seconds: ''
+
+# Command Messages
+Commands:
+  PlayerNotOnline: ''
+  InvalidArgs: ''
+  MissingPermission: ''
+  Health:
+    FiveThroughTwentyFortyEight: ''
+    Updated: ''
+  Speed:
+    ZeroThroughTen: ''
+    WalkSpeed: ''
+    FlySpeed: ''
+  Clear:
+    Cleared: ''
+    ClearedOther: '' # [PLAYER]
+  Delwarp:
+    IncludeAWarp: ''
+    WarpRemoved: '' #[WARP]
+    InvalidWarp: ''
+  EnderChest:
+    Open: ''
+  Feed:
+    Fed: ''
+    FedOther: '' # [PLAYER]
+  Fly:
+    FlyOFF: ''
+    FlyON: ''
+    FlyOthers: '' # [PLAYER]
+  Gamemode:
+    ChooseAGamemode: ''
+    Creative: ''
+    Survival: ''
+    Adventure: ''
+    Spectator: ''
+    UnknownGamemode: ''
+    GamemodeOthers: '' # [PLAYER]
+  God:
+    On: ''
+    Off: ''
+    OnOthers: '' # [PLAYER]
+    OffOthers: '' # [PLAYER]
+  Hat:
+    HatSet: ''
+    MustHoldItem: ''
+  Heal:
+    Healed: ''
+    HealedOthers: '' # [PLAYER]
+  PrisMC:
+    Help:
+      - ''
+      - ''
+      - ''
+      - ''
+    Reload: ''
+  SetSpawn:
+    SpawnHasBeenSet: ''
+  SetWarp:
+    WarpAlreadyExists: ''
+    WarpSet: '' # [WARP]
+  Warp:
+    MustIncludeWarp: ''
+    Warped: ''
+    InvalidWarp: ''
+    WarpOthers: '' # [PLAYER] [WARP]
+
+# GUI Basics
+# Messages that are carried out between GUIs.
+GUIBasics:
+  CloseMenu: ''
+  Back: ''
+
+# Chat Messages
+Chat:
+  BannedCharacters: ''
+
+# Profile Menu Messages
+# Contains many sub-menus.
+ProfileMenu:
+  MenuBar:
+    You: ''
+    Friends: ''
+    Party: ''
+    Achievements: ''
+    Settings: ''
+    Language: ''
+  ProfilePage:
+    Title: '&r&f[TITLE]'
+    ChestTitle: ''
+    Alpha:
+      Title: ''
+      Lore:
+        - ''
+  FriendsPage:
+    Title: '&r&f[TITLE][FORMAT][PAGE]'
+    NoFriendsTitle: '&r&f[TITLE]'
+    ChestTitle: ''
+    Format:
+      RightArrow: ''
+      LeftArrow: ''
+      BothArrows: ''
+      NoArrows: ''
+    Page:
+      1: ''
+      2: ''
+      3: ''
+      4: ''
+      5: ''
+      6: ''
+      7: ''
+      8: ''
+      9: ''
+      10: ''
+    NextPage: '' # [PAGE]
+    PreviousPage: '' # [PAGE]
+    AddPage: ''
+    OnlineFriends:
+      Lore: # [PLAYING] [FIRSTJOIN]
+        - ''
+    OfflineFriends:
+      Lore: # [SEEN] [FIRSTJOIN]
+        - ''
+    FriendAddPage:
+      Title: '&r&f[TITLE][FORMAT]'
+      ChestTitle: ''
+      Layout: ''
+      Confirm:
+        - '&r&f'
+      Cancel:
+        - '&r&f'
+  PartyPage:
+    Title: '&r&f[TITLE][FORMAT][STATUS][BUTTONS]'
+    ChestTitle: ''
+    NoParty:
+      Format: ''
+      Open: ''
+      Closed: ''
+      Join: ''
+    Party:
+      RightArrow: ''
+      LeftArrow: ''
+      BothArrows: ''
+      NoArrows: ''
+      Next: ''
+      Previous: ''
+      LeaderPrefix: ""
+      OpenIcon: ''
+      ClosedIcon: ''
+      LeaderButtons: ''
+      MemberButtons: ''
+      StatusChangeButton: ''
+      InviteButton: ''
+      DisbandButton: ''
+      LeaveButton: ''
+      JoinPage:
+        Title: '&r&f[TITLE][FORMAT]'
+        ChestTitle: ''
+        Layout: ''
+        Confirm:
+          - '&r&f'
+        Cancel:
+          - '&r&f'
+      InvitePage:
+        Title: '&r&f[TITLE][FORMAT]'
+        ChestTitle: ''
+        Layout: ''
+        Confirm:
+          - '&r&f'
+        Cancel:
+          - '&r&f'
+  Settings:
+    Title: '&r&f[TITLE][FORMAT][SETTING_2][SETTING_4][SETTING_6][SETTING_8][SETTING_10][SETTING_1][SETTING_3][SETTING_5][SETTING_7][SETTING_9]'
+    ChestTitle: ''
+    Layout: ''
+    Toggles: #By Row; ON, OFF, PALS, Blank, LOW, MEDIUM, HIGH
+      Row1: ''
+      Row2: ''
+      Row3: ''
+      Row4: ''
+      Row5: ''
+    Buttons:
+      FriendRequests:
+        Title: ''
+        Lore:
+          - ''
+      FriendNotifications:
+        Title: ''
+        Lore:
+          - ''
+      MsgToggle:
+        Title: ''
+        Lore:
+          - ''
+      ChatFilter:
+        Title: ''
+        Lore:
+          - ''
+      PartyInvites:
+        Title: ''
+        Lore:
+          - ''
+  Language:
+    Title: '&r&f[TITLE][FORMAT]'
+    ChestTitle: ''
+    Layout: ''
+    Info:
+      Title: ''
+      Lore:
+        - ''
+    Languages:
+      English: # Do not translate
+        Title: '&6English'
+        Lore:
+          - ''
+          - '&fThe following are translated:'
+          - '&7- &aThe Lobby'
+          - '&7- &aAll Gamemodes'
+          - '&7- &aEvents'
+          - '&7- &aExtras'
+          - ''
+          - '&eClick to change your language!'
+        Switched: '&aYour language is now set to &eEnglish&a!'
+      Spanish: # Do not translate
+        Title: '&6Español'
+        Lore:
+          - ''
+          - '&fSe traducen los siguientes:'
+          - '&7- &cSe necesitan traducciones'
+          - ''
+          - '&e¡Haz clic para cambiar tu idioma!'
+        Switched: '&a¡Su idioma ahora está configurado en &eEspañol&a!'
+
+ServerSelector:
+  Title: ''
+  Top:
+    One:
+      Name: ''
+      Lore: # You can use [PLAYERS] for the current amount of players connected to the specific server.
+        - ''
+        - ''
+        - ''
+    Two:
+      Name: ''
+      Lore: # You can use [PLAYERS] for the current amount of players connected to the specific server.
+        - ''
+    Three:
+      Name: ''
+      Lore: # You can use [PLAYERS] for the current amount of players connected to the specific server.
+        - ''
+  Bottom:
+    One:
+      Name: ''
+      Lore:
+        - ''
+        - ''
+        - ''
+    Two:
+      Name: ''
+      Lore:
+        - ''
+        - ''
+    Three:
+      Name: ''
+      Lore:
+        - ''
+        - ''
+
+LobbySelector:
+  Title: ''
+  Items:
+    OnlineStatus:
+      Title: '' # [LOBBY]
+      Lore: # You can use [PLAYERS] for the current amount of players connected to the specific server.
+        - ''
+        - ''
+        - ''
+    OfflineStatus:
+      Title: '' # [LOBBY]
+      Lore:
+        - ''

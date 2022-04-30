@@ -1,0 +1,27 @@
+#
+# PrisHub
+# Made with love <3
+#
+
+# Animation subtitle.
+Animation:
+  LoginDelay: 20
+  FrameDelay: 10
+  Subtitle: '&f&lAlpha v1'
+  Delay: 2
+  Particles: 500
+  Xo: 8
+  Yo: 8
+  Zo: 8
+
+# Extra spawn points to reduce lag.
+SpawnPoints:
+  - 'hub : 1.5 : 100.2 : 1.5 : 0.0 : 0.0'
+  - 'hub : 0.5 : 100.2 : 1.5 : 0.0 : 0.0'
+  - 'hub : -0.5 : 100.2 : 1.5 : 0.0 : 0.0'
+  - 'hub : 1.5 : 100.2 : 0.5 : 0.0 : 0.0'
+  - 'hub : 0.5 : 100.2 : 0.5 : 0.0 : 0.0'
+  - 'hub : -0.5 : 100.2 : 0.5 : 0.0 : 0.0'
+  - 'hub : 1.5 : 100.2 : -0.5 : 0.0 : 0.0'
+  - 'hub : 0.5 : 100.2 : -0.5 : 0.0 : 0.0'
+  - 'hub : -0.5 : 100.2 : -0.5 : 0.0 : 0.0'

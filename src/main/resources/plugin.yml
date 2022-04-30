@@ -1,0 +1,20 @@
+name: PrisHub
+version: ${project.version}
+main: net.prismc.prishub.PrisHub
+api-version: 1.18
+description: Lobby plugin for PrisMC
+author: Skarless
+depend:
+  - PrisCore
+  - LuckPerms
+  - PlaceholderAPI
+  - ProtocolLib
+commands:
+  prishub:
+    usage: </command>
+    description: Reload the plugin.
+    aliases: [ ]
+  lobbyanimate:
+    usage: </command>
+    description: Displays test animation.
+    aliases: [ ]
